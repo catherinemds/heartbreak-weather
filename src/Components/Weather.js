@@ -10,13 +10,13 @@ function Weather({weatherData}) {
   const date= new Date();
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ width: 640}}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height="140"
+          height="320"
           image="https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?cs=srgb&dl=pexels-pixabay-209831.jpg&fm=jpg"
-          alt="green iguana"
+          alt="clouds"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
